@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+.color-dark {
+  color: #0a0826;
+}
+
+.color-light-dark {
+  color: #3e3e3e;
+}
+
+.color-text {
+  color: #6c6c6c;
+}
+
+.color-blue {
+  color: #3f87f5;
+}
+
+.background-blue {
+  background-color: #3f87f5;
+}
+
+.line-height-28 {
+  line-height: 28px;
+}
+
+.slide-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.banner-text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.section-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 57px;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #0a0826;
+}
+
+.review-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #6c6c6c;
+}
+
+.reviewer-name {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #0c1920;
+}
+
+.reviewer-job {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #747474;
+}
+
+.copyright-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  font-feature-settings: "liga" off;
+  color: #d9dbe1;
+}
+
+.footer {
+  background-color: #0b0d17;
+  color: #d9dbe1;
+}
+
+.footer-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  font-feature-settings: "liga" off;
+  color: #d9dbe1;
+}
+
+.footer img {
+  height: 40px;
+  width: 135px;
+}
+
+.width-50 {
+  width: 50%;
+}
+
+.width-75 {
+  width: 75%;
+}
+
+@media (max-width: 600px) {
+  .section-title {
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 28px;
+  }
+
+  .carousel-item,
+  .carousel-item.active {
+    height: 400px;
+  }
+
+  .width-50 {
+    width: 100%;
+  }
+
+  .width-75 {
+    width: 100%;
+  }
+
+  .slide-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+}
