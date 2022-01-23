@@ -132,6 +132,114 @@ a {
   width: 75%;
 }
 
+.pricing-card {
+  border-radius: 26px;
+  background-image: url(icons/watermark.svg);
+  background-position: top right;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  position: relative;
+}
+
+.pricing-card-price {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 46px;
+  color: #231d4f;
+}
+
+.tag {
+  background-color: #ff4e4e;
+  z-index: 100;
+  color: #fff;
+  top: -10px;
+  right: 15px;
+  padding: 5px 15px;
+  font-weight: bold !important;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+
+.pricing-card-title {
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 33px;
+  color: #231d4f;
+}
+
+.pricing-card p {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 22px;
+
+  color: #848199;
+}
+
+.pricing-card ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0px;
+}
+
+.pricing-card ul li {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 22px;
+  color: #848199;
+  margin: 3px 0;
+}
+
+.pricing-card ul li span {
+  height: 20px;
+  width: 20px;
+  background-color: #edecf9;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  color: #5243c2;
+  margin-right: 7px;
+}
+
+.pricing-card a {
+  background-color: #fef5fa;
+  color: #3f87f5;
+}
+
+.pricing-card.active {
+  background-color: #3f87f5;
+}
+
+.pricing-card.active li,
+.pricing-card.active p,
+.pricing-card.active .pricing-card-title,
+.pricing-card.active .pricing-card-price {
+  color: #fff;
+}
+
+.pricing-card.active a {
+  background-color: #fff;
+}
+
+.pricing-card:hover {
+  background-color: #3f87f5;
+  box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+}
+
+.pricing-card:hover li,
+.pricing-card:hover p,
+.pricing-card:hover .pricing-card-title,
+.pricing-card:hover .pricing-card-price {
+  color: #fff;
+}
+
 @media (max-width: 600px) {
   .section-title {
     font-weight: 600;
