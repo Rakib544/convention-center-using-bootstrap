@@ -1,1 +1,1 @@
-# conventions-center-using-bootstrap projects
+# convention-center-using-bootstrap projects
